@@ -1,16 +1,24 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Food Ninja</title>
   <!-- materialize icons, css & js -->
   <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" href="/css/styles.css" rel="stylesheet">
+  <!-- androind support -->
   <link rel="manifest" href="/manifest.json">
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
   <script type="text/javascript" src="/js/materialize.min.js"></script>
+
 </head>
+
 <body class="grey lighten-4">
 
   <!-- top nav -->
@@ -28,9 +36,11 @@
     <li><a class="subheader">FOODNINJA</a></li>
     <li><a href="/" class="waves-effect">Home</a></li>
     <li><a href="/pages/about.html" class="waves-effect">About</a></li>
-    <li><div class="divider"></div></li>
+    <li>
+      <div class="divider"></div>
+    </li>
     <li><a href="/pages/contact.html" class="waves-effect">
-      <i class="material-icons">mail_outline</i>Contact</a>
+        <i class="material-icons">mail_outline</i>Contact</a>
     </li>
   </ul>
 
@@ -87,7 +97,7 @@
   <!-- add recipe side nav -->
   <div id="side-form" class="sidenav side-form">
     <form class="add-recipe container section">
-      <h6 >New Recipe</h6>
+      <h6>New Recipe</h6>
       <div class="divider"></div>
       <div class="input-field">
         <input placeholder="e.g. Ninja soup" id="title" type="text" class="validate">
@@ -105,4 +115,5 @@
 
   <script src="/js/ui.js"></script>
 </body>
+
 </html>
